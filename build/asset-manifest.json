@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c843fbff.css",
+    "main.js": "/static/js/main.d165ca2b.js",
+    "static/media/ramaacreations.webp": "/static/media/ramaacreations.348946a4d4344955f2ae.webp",
+    "static/media/color-sharp2.webp": "/static/media/color-sharp2.7dea3ba2d633557f098b.webp",
+    "static/media/color-sharp.webp": "/static/media/color-sharp.945004ade9a575ca79ef.webp",
+    "static/media/amazonproject.webp": "/static/media/amazonproject.a8ec12904e5708b18e95.webp",
+    "static/media/banner_pic.webp": "/static/media/banner_pic.8d796c37fd37e6dead86.webp",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.webp": "/static/media/footer-bg.4fae72fa129cd6431a50.webp",
+    "static/media/stackoverflowclone.webp": "/static/media/stackoverflowclone.4fc997e182a21e059166.webp",
+    "static/media/mychatproject.webp": "/static/media/mychatproject.02057e37cfb9b11c43e4.webp",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/express.webp": "/static/media/express.e8bccad4bf803225a41a.webp",
+    "static/media/mongodb.svg": "/static/media/mongodb.416baad2a16190de2ad81ad547b71fd8.svg",
+    "static/media/mysql.svg": "/static/media/mysql.4e6fc76860c30ade009df8b119c7eaa5.svg",
+    "static/media/vscodesvg.svg": "/static/media/vscodesvg.026f1dab135858412a19466b7efdf523.svg",
+    "static/media/cpp2.svg": "/static/media/cpp2.307094eff2abb1f661e95627f4fd31c1.svg",
+    "index.html": "/index.html",
+    "static/media/reactjs.svg": "/static/media/reactjs.7098e2714733fed1ce8cdb90d51c4289.svg",
+    "static/media/Redux.svg": "/static/media/Redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/css.svg": "/static/media/css.b3c0acbf83dd5d6e5ab455b9de967ab9.svg",
+    "static/media/html.svg": "/static/media/html.8c11e1a8364b520a311ac9bf8b5d2fbf.svg",
+    "static/media/Instagram.svg": "/static/media/Instagram.83d9923752f823fcb7b4aa90a1b3d4ae.svg",
+    "static/media/Github.svg": "/static/media/Github.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "static/media/Git.svg": "/static/media/Git.3a71a2d03b1205894fb1d6dfcfc788a3.svg",
+    "static/media/envelope.svg": "/static/media/envelope.546e44c4dc1339a48202c46a2dd5d5f2.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/javascript.svg": "/static/media/javascript.6169c19121c94415a257f20d0c70712c.svg",
+    "static/media/banner-bg.webp": "/static/media/banner-bg.37fae91d00021e6948dd.webp",
+    "main.c843fbff.css.map": "/static/css/main.c843fbff.css.map",
+    "main.d165ca2b.js.map": "/static/js/main.d165ca2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c843fbff.css",
+    "static/js/main.d165ca2b.js"
+  ]
+}
