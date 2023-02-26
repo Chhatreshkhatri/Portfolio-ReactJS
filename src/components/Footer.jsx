@@ -11,7 +11,7 @@ export const Footer = () => {
             <h3>CHHATRESH KHATRI</h3>
           </Col>
           <Col className="text-center">
-          <p>© 2023 Copyright by Chhatresh Khatri All rights reserved</p>
+          <p>&copy; 2023 Copyright by Chhatresh Khatri All rights reserved</p>
           </Col>
           <Col size={8} sm={4} className="text-center text-sm-end">
             <Socialicon />

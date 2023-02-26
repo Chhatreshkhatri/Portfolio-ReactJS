@@ -61,11 +61,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+                <div className={ isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
                     {`Hi! I'm Chhatresh Khatri`}{" "}
@@ -83,14 +79,6 @@ export const Banner = () => {
                     Enthusiastic, self-motivated and passionate professional
                     with great interpersonal and communication skills.
                   </p>
-                  <button onClick={() => setShow(!show)}>
-                    Let's Connect <ArrowRightCircle size={25} />
-                    {show ? (
-                      <Socialicon />
-                    ) : (
-                      ""
-                    )}
-                  </button>
                 </div>
               )}
             </TrackVisibility>
@@ -98,21 +86,17 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
-                >
-                  <img
-                    src={headerImg}
-                    alt="Header Img"
-                    className="img-header"
-                  />
+                <div className={ isVisible ? "animate__animated animate__zoomIn" : ""}>
+                  <img src={headerImg} alt="Header Img" className="img-header" />
                 </div>
               )}
             </TrackVisibility>
           </Col>
         </Row>
+          <button onClick={() => setShow(!show)}>
+            Let's Connect <ArrowRightCircle size={25} />
+              <div className="banner_socialIcon"><Socialicon /></div>
+          </button>
       </Container>
     </section>
   );
