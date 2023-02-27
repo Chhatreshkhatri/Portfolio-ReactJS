@@ -6,19 +6,20 @@ import Home from "./components/Home";
 import Skills from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
       <NavBar />
       <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path='*' element={<Navigate to='/' />} />
           </Routes>
       <Footer />
       </Router>
