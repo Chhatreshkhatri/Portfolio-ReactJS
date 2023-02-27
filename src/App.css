@@ -35,6 +35,7 @@ img{
 }
 .img-header{
   width: 75%;
+  align-self: center;
 }
 body {
   font-weight: 400;
@@ -89,6 +90,7 @@ p.danger {
 nav.navbar {
   padding: 18px 0;
   position: fixed;
+  background: #191919;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -108,23 +110,23 @@ nav.navbar {
   margin: 0;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 10px 0;
   background-color: #121212;
   padding: 10px 0;
 }
-nav.navbar a.navbar-brand {
-    width: 9%;
-}
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
+
+.navbar-link {
+  text-decoration: none;
+  font-weight: 500;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 22px;
   opacity: 0.75;
 }
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+
+.navbar-link:hover,
+.navbar-link.active {
     opacity: 1;
 }
 span.navbar-text {
@@ -211,14 +213,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-/************ Banner Css ************/
+/************ Home Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 50px 0;
+  padding: 200px 0 50px 0;
   background-image: url('./assets/img/banner-bg.webp');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: auto;
 }
 .banner .tagline {
   font-weight: 700;
@@ -265,6 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner .banner_socialIcon{
+  visibility: none;
   display: none;
 }
 
@@ -285,14 +289,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
 }
-.txt-rotate > .wrap {
+/* .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+} */
+@media (max-width:425px) {
+  .banner button{
+    display: inline-block;
+  }
 }
-
 /************ Social Icon Css ************/
 .social-icon {
   display: inline-flex;
-  margin-left: 14px;
+  margin-left: 10px;
 }
 .social-icon a {
   width: 42px;
@@ -330,8 +338,12 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 100px 0 50px 0;
   position: relative;
+  height: auto;
+  background-image: url('/src/assets/img/color-sharp.webp'),url('/src/assets/img/color-sharp2.webp');
+  background-position: left top,right bottom;
+  background-repeat: no-repeat;
 }
 .skill-bx {
   background: #151515;
@@ -340,9 +352,20 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   padding: 60px 50px;
   margin: 50px 0px;
 }
-.skill h2 {
+.skill h1 {
 	font-size: 45px;
 	font-weight: 700;
+}
+.skill h3 {
+	font-size: 35px;
+	font-weight: 500;
+  color: #B8B8B8;
+}
+.skill h4 {
+	font-size: 30px;
+	font-weight: 500;
+  color: #B8B8B8;
+  padding: 20px 0 10px 0;
 }
 .skill p {
     color: #B8B8B8;
@@ -351,14 +374,11 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
+.skill .techStack-lang img{
+  height: 60px;
+  width: auto;
+  /* max-width: 192px; */
+  padding: 5px;
 }
 .background-image-left {
   position: absolute;
@@ -377,26 +397,37 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 100px 0;
   position: flex;
-  background-color: black;
+  background-color: #191919;
+  text-align: center;
 }
-.project h2 {
+.project h1 {
 	font-size: 45px;
 	font-weight: 700;
-  text-align: center;
 }
-.project .project_p{
-  text-align: center;
+.project h2 {
+	font-size: 35px;
+	font-weight: 500;
+  color: #B8B8B8;
+  padding: 10px 0 15px 0;
 }
 .project p {
   color: #B8B8B8;
-  font-size: 18px;
+  font-size: 25px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: left;
   width: 72%;
+}
+@media (max-width:767px) {
+  .project h2{
+    font-size: 20px;
+  }
+  .project p {
+    font-size: 15px;
+  }
 }
 .project .nav.nav-pills {
   width: 100%;

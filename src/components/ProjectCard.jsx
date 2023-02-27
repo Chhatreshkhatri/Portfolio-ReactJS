@@ -1,7 +1,7 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 
-export const ProjectCard = ({ title, description, imgUrl,link,sourceCode }) => {
+function ProjectCard ({ title, description, imgUrl,link,sourceCode }) {
   return (
     <Col>
       <div className="proj-imgbx">
@@ -15,3 +15,5 @@ export const ProjectCard = ({ title, description, imgUrl,link,sourceCode }) => {
       </Col>
   )
 }
+
+export default ProjectCard;

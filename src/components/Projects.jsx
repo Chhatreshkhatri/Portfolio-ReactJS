@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav} from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
 import amazonproject from "../assets/img/amazonproject.webp";
 import ramaacreations from "../assets/img/ramaacreations.webp";
 import mychatproject from "../assets/img/mychatproject.webp";
@@ -7,8 +7,9 @@ import stackoverflowproject from "../assets/img/stackoverflowclone.webp";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import React from "react";
+import { Helmet } from "react-helmet";
 
-export const Projects = () => {
+function Projects() {
   const projects1 = [
     {
       title: "Amazon-clone",
@@ -47,14 +48,18 @@ export const Projects = () => {
   ];
   return (
     <section className="project" id="projects">
+      <Helmet>
+        <title>Portfolio | Chhatresh Khatri | Projects</title>
+        <meta name="description" content="Projects made by Chhatresh Khatri" />
+      </Helmet>
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p className="project_p">Some of the projects that I have built</p>
+                <h1>Projects</h1>
+                <h2 className="project_p">Some of the projects that I have built</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab" fill>
                     <Nav.Item>
@@ -91,8 +96,8 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">                      
                       <p><strong>StackOverflow-clone:</strong> A question-answer website with chatbot feature.</p>
                       <p><strong>Technology stack used:</strong></p>
-                      <p><strong>Client-side:</strong> axios jwt-decode moment react-copy-to-clipboard react-router-dom redux react-redux redux-thunk react-chatbot-kit deployed on Netlify</p>
-                      <p><strong>Server-side:</strong> bcryptjs jsonwebtoken cors dotenv express mongoose nodemon deployed on Back4App</p>
+                      <p><strong>Client-side:</strong> axios, jwt-decode, moment, react-copy-to-clipboard, react-router-dom, redux, react-redux, redux-thunk, react-chatbot-kit and deployed on Netlify</p>
+                      <p><strong>Server-side:</strong> bcryptjs, jsonwebtoken, cors, dotenv, express, mongoose, nodemon and deployed on Back4App</p>
                       <Row className="row">
                         {
                           projects4.map((project, index) => {
@@ -125,7 +130,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="fourth">
                       
                       <p><strong>Amazon-clone:</strong> An e-commerce website</p>
-                      <p><strong>Technologies used:</strong> react, axios, firebase, stripe, Git & Github with Visual Studio Code</p>
+                      <p><strong>Technologies used:</strong> ReactJS, axios, firebase, stripe, Git & Github with Visual Studio Code</p>
                       <Row className="row-item">
                         {
                           projects1.map((project, index) => {
@@ -151,3 +156,4 @@ export const Projects = () => {
     </section>
   )
 };
+export default Projects;

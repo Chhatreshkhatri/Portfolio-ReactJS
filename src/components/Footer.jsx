@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Socialicon from "./Socialicon";
 
-export const Footer = () => {
+function Footer() {
   return (
     <footer className="footer">
       <Container>
@@ -21,3 +21,4 @@ export const Footer = () => {
     </footer>
   )
 }
+ export default Footer;
