@@ -35,7 +35,7 @@ img{
 }
 .img-header{
   width: 75%;
-  align-self: center;
+  max-width: 512px;
 }
 body {
   font-weight: 400;
@@ -338,7 +338,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 /************ Skills Css ************/
 .skill {
-  padding: 100px 0 50px 0;
+  padding: 150px 0 50px 0;
   position: relative;
   height: auto;
   background-image: url('/src/assets/img/color-sharp.webp'),url('/src/assets/img/color-sharp2.webp');
@@ -377,7 +377,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 .skill .techStack-lang img{
   height: 60px;
   width: auto;
-  /* max-width: 192px; */
+  max-width: 250px;
   padding: 5px;
 }
 .background-image-left {
@@ -397,7 +397,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 /************ Projects Css ************/
 .project {
-  padding: 100px 0;
+  padding: 150px 0 50px 0;
   position: flex;
   background-color: #191919;
   text-align: center;
@@ -576,10 +576,20 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   font-size: 14px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin: 10px 0;
+}
+.footer .nameGradient{
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background-clip: text;
+    color: transparent;
+    align-items: center;
+    margin: 0;
+    padding-top: 10px;
+    display: inline-flex;
+
 }
 @media (max-width:767px) {
-  .name-gradient{
+  .name-copyright{
     text-align: center;
   }
 }

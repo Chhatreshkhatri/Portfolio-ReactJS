@@ -18,7 +18,7 @@ function Home () {
       </Helmet>
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={12} xl={7}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={ isVisible ? "animate__animated animate__fadeIn" : ""}>
@@ -50,7 +50,7 @@ function Home () {
               )}
             </TrackVisibility>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col sm={true}>
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={ isVisible ? "animate__animated animate__zoomIn" : ""}>

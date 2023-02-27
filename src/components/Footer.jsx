@@ -6,14 +6,12 @@ function Footer() {
   return (
     <footer className="footer">
       <Container>
-        <Row className="align-items-center">
-          <Col size={8} sm={5} className="name-gradient">
-            <h3>CHHATRESH KHATRI</h3>
+        <Row className="align-items-center name-copyright">
+          <Col sm={true}>
+            <h3 className="nameGradient"><span> CHHATRESH KHATRI</span></h3>
+            <p>&copy; 2023 Copyright by Chhatresh Khatri All rights reserved</p>
           </Col>
-          <Col className="text-center">
-          <p>&copy; 2023 Copyright by Chhatresh Khatri All rights reserved</p>
-          </Col>
-          <Col size={8} sm={4} className="text-center text-sm-end">
+          <Col sm={true} className="text-center text-sm-end">
             <Socialicon />
           </Col>
         </Row>
