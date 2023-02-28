@@ -13,7 +13,7 @@ function Skills () {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h1>Tech Stack &</h1>
+                        <h1>Tech Stack</h1>
                         <h3>My Technology Stack</h3>
                         <div className="techStack-lang">
 
