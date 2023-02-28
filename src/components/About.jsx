@@ -1,9 +1,10 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 function Skills () {
 
   return (
+    <HelmetProvider>
     <section className="skill" id="skills">
         <Helmet>
             <title>Portfolio | Chhatresh Khatri | Skills</title>
@@ -12,7 +13,7 @@ function Skills () {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h1>Tech Stack</h1>
+                        <h1>Tech Stack &</h1>
                         <h3>My Technology Stack</h3>
                         <div className="techStack-lang">
 
@@ -62,6 +63,7 @@ function Skills () {
             </div>
         </div>
     </section>
+    </HelmetProvider>
   )
 }
 

@@ -7,7 +7,8 @@ import stackoverflowproject from "../assets/img/stackoverflowclone.webp";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import React from "react";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 function Projects() {
   const projects1 = [
@@ -47,6 +48,7 @@ function Projects() {
     },
   ];
   return (
+    <HelmetProvider>
     <section className="project" id="projects">
       <Helmet>
         <title>Portfolio | Chhatresh Khatri | Projects</title>
@@ -154,6 +156,7 @@ function Projects() {
         </Row>
       </Container>
     </section>
+    </HelmetProvider>
   )
 };
 export default Projects;

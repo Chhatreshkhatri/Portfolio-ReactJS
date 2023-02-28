@@ -33,10 +33,6 @@ html {
 img{
   width: 100%;
 }
-.img-header{
-  width: 75%;
-  max-width: 512px;
-}
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -267,16 +263,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-.banner .banner_socialIcon{
-  visibility: none;
-  display: none;
-}
-
-.banner button:hover .banner_socialIcon{
-  display: flex;
-}
 .banner .img {
   animation: updown 3s linear infinite;
+}
+.img-header{
+  max-width: 412px;
+  margin: auto;
+}
+.banner .download-button{
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: #191919;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin: 25px 0 25px 0;
+  display: inline-block;
+}
+.banner .download-button:hover{
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.connect_withMe{
+  padding: 25px 0 10px 0;
+  text-align: center;
+  font-weight: 500;
 }
 @keyframes updown {
     0% {
@@ -397,6 +408,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 /************ Projects Css ************/
 .project {
+  margin-top: 50px;
   padding: 150px 0 50px 0;
   position: flex;
   background-color: #191919;
