@@ -6,13 +6,12 @@ import Home from "./components/Home";
 import Skills from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <Router>
       <NavBar />
       <ScrollToTop />
         <Routes>
@@ -22,7 +21,6 @@ function App() {
           <Route path='*' element={<Navigate to='/' />} />
           </Routes>
       <Footer />
-      </Router>
     </div>
   );
 }
