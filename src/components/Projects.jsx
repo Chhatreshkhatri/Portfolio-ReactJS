@@ -82,7 +82,7 @@ function Projects() {
                       <p><strong>RAMAA CREATIONS:</strong> An e-commerce Jewellery website.</p>
                       <p><strong>Built using:</strong> Alicms tool at Alibaba Cloud Low-Code Development Contest 2022.</p>
                       <p>Secured <strong>Second</strong> position out of 2043 participants.</p>
-                      <Row className="row">
+                      <Row className="row-item">
                         {
                           projects2.map((project, index) => {
                             return (
@@ -100,7 +100,7 @@ function Projects() {
                       <p><strong>Technology stack used:</strong></p>
                       <p><strong>Client-side:</strong> axios, jwt-decode, moment, react-copy-to-clipboard, react-router-dom, redux, react-redux, redux-thunk, react-chatbot-kit and deployed on Netlify</p>
                       <p><strong>Server-side:</strong> bcryptjs, jsonwebtoken, cors, dotenv, express, mongoose, nodemon and deployed on Back4App</p>
-                      <Row className="row">
+                      <Row className="row-item">
                         {
                           projects4.map((project, index) => {
                             return (
@@ -116,7 +116,7 @@ function Projects() {
                     <Tab.Pane eventKey="third">
                       <p><strong>MyChat:</strong> An android chat application</p>
                       <p><strong>Built using:</strong> Java, Firebase firestore, Git & Github with android studio</p>
-                      <Row className="row">
+                      <Row className="row-item">
                         {
                           projects3.map((project, index) => {
                             return (
