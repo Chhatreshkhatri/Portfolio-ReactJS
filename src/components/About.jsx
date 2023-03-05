@@ -13,11 +13,10 @@ function Skills () {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h1>Tech Stack</h1>
-                        <h3>My Technology Stack</h3>
+                        <h1>My Technology Stack</h1>
                         <div className="techStack-lang">
 
-                            <h4>Languages</h4>
+                            <h3>Languages</h3>
 
                             <img src="https://img.shields.io/badge/c-1563b1.svg?style=flat&logo=c&logoColor=white" alt="C"/>
                             <img src="https://img.shields.io/badge/c++-004488.svg?style=flat&logo=c%2B%2B&logoColor=white" alt="C++"/>
@@ -27,7 +26,7 @@ function Skills () {
                             <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white" alt="CSS3"/>
                             <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript"/>
 
-                            <h4>Framework & Libraries</h4>
+                            <h3>Framework & Libraries</h3>
 
                             <img src="https://img.shields.io/badge/bootstrap-702cf5.svg?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
                             <img src="https://img.shields.io/badge/ReactJS-282c34.svg?style=flat&logo=react&logoColor=61dafb" alt="ReactJS"/>
@@ -38,7 +37,7 @@ function Skills () {
                             <img src="https://img.shields.io/badge/Redux-764ABC.svg?style=flat&logo=Redux&logoColor=white" alt="React-redux"/>
                             <img src="https://img.shields.io/badge/.ENV-ECD53F.svg?style=flat&logo=dotenv&logoColor=black" alt=".env"/>
 
-                            <h4>Tools & IDEs</h4>
+                            <h3>Tools & IDEs</h3>
 
                             <img src="https://img.shields.io/badge/MongoDB-001e2b.svg?style=flat&logo=mongodb" alt="MongoDB"/>
                             <img src="https://img.shields.io/badge/nodemon-4f4d3f.svg?style=flat&logo=nodemon" alt="nodemon"/>

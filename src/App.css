@@ -38,6 +38,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #191919 !important;
+  /* background-color: white !important; */
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -75,18 +76,10 @@ input:focus, textarea:focus, select:focus {
 	}
 }
 
-p.success {
-	color: green;
-}
-
-p.danger {
-	color: red;
-}
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
-  background: #191919;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -213,7 +206,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 50px 0;
-  background-image: url('./assets/img/banner-bg.webp');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -352,9 +344,6 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   padding: 150px 0 50px 0;
   position: relative;
   height: auto;
-  background-image: url('/src/assets/img/color-sharp.webp'),url('/src/assets/img/color-sharp2.webp');
-  background-position: left top,right bottom;
-  background-repeat: no-repeat;
 }
 .skill-bx {
   background: #151515;
@@ -369,11 +358,6 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 }
 .skill h3 {
 	font-size: 35px;
-	font-weight: 500;
-  color: #B8B8B8;
-}
-.skill h4 {
-	font-size: 30px;
 	font-weight: 500;
   color: #B8B8B8;
   padding: 20px 0 10px 0;
@@ -411,7 +395,6 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   margin-top: 50px;
   padding: 150px 0 50px 0;
   position: flex;
-  background-color: #191919;
   text-align: center;
 }
 .project h1 {

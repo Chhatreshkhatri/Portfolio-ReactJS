@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9d5aa92.css",
-    "main.js": "/static/js/main.3a9d1c19.js",
+    "main.css": "/static/css/main.0219b61c.css",
+    "main.js": "/static/js/main.98f84ddb.js",
     "static/media/ramaacreations.webp": "/static/media/ramaacreations.348946a4d4344955f2ae.webp",
-    "static/media/color-sharp2.webp": "/static/media/color-sharp2.7dea3ba2d633557f098b.webp",
-    "static/media/color-sharp.webp": "/static/media/color-sharp.945004ade9a575ca79ef.webp",
     "static/media/amazonproject.webp": "/static/media/amazonproject.a8ec12904e5708b18e95.webp",
     "static/media/banner_pic.webp": "/static/media/banner_pic.8d796c37fd37e6dead86.webp",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -18,12 +16,11 @@
     "static/media/Github.svg": "/static/media/Github.97ed8e7eef60d61ca469881dd6f34511.svg",
     "static/media/envelope.svg": "/static/media/envelope.546e44c4dc1339a48202c46a2dd5d5f2.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/banner-bg.webp": "/static/media/banner-bg.37fae91d00021e6948dd.webp",
-    "main.f9d5aa92.css.map": "/static/css/main.f9d5aa92.css.map",
-    "main.3a9d1c19.js.map": "/static/js/main.3a9d1c19.js.map"
+    "main.0219b61c.css.map": "/static/css/main.0219b61c.css.map",
+    "main.98f84ddb.js.map": "/static/js/main.98f84ddb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9d5aa92.css",
-    "static/js/main.3a9d1c19.js"
+    "static/css/main.0219b61c.css",
+    "static/js/main.98f84ddb.js"
   ]
 }
