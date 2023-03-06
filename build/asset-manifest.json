@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0219b61c.css",
-    "main.js": "/static/js/main.98f84ddb.js",
+    "main.css": "/static/css/main.f036e8e1.css",
+    "main.js": "/static/js/main.79640641.js",
     "static/media/ramaacreations.webp": "/static/media/ramaacreations.348946a4d4344955f2ae.webp",
     "static/media/amazonproject.webp": "/static/media/amazonproject.a8ec12904e5708b18e95.webp",
     "static/media/banner_pic.webp": "/static/media/banner_pic.8d796c37fd37e6dead86.webp",
@@ -16,11 +16,11 @@
     "static/media/Github.svg": "/static/media/Github.97ed8e7eef60d61ca469881dd6f34511.svg",
     "static/media/envelope.svg": "/static/media/envelope.546e44c4dc1339a48202c46a2dd5d5f2.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.0219b61c.css.map": "/static/css/main.0219b61c.css.map",
-    "main.98f84ddb.js.map": "/static/js/main.98f84ddb.js.map"
+    "main.f036e8e1.css.map": "/static/css/main.f036e8e1.css.map",
+    "main.79640641.js.map": "/static/js/main.79640641.js.map"
   },
   "entrypoints": [
-    "static/css/main.0219b61c.css",
-    "static/js/main.98f84ddb.js"
+    "static/css/main.f036e8e1.css",
+    "static/js/main.79640641.js"
   ]
 }

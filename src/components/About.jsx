@@ -7,7 +7,7 @@ function Skills () {
     <HelmetProvider>
     <section className="skill" id="skills">
         <Helmet>
-            <title>Portfolio | Chhatresh Khatri | Skills</title>
+            <title>Portfolio | Chhatresh Khatri | About</title>
         </Helmet>
         <div className="container">
             <div className="row">
