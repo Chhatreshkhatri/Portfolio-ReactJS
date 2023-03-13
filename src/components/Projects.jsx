@@ -16,7 +16,7 @@ function Projects() {
       title: "Amazon-clone",
       description: "An-Ecommerce website",
       imgUrl: amazonproject,
-      link: 'https://clone-a2550.web.app/',
+      link: 'https://amazonclone.chhatreshkhatri.com/',
       sourceCode: 'https://github.com/Chhatreshkhatri/amazon-clone'
     },
   ];
@@ -43,7 +43,7 @@ function Projects() {
       title: "StackOverflow-clone",
       description: "A question-answer website with chatbot",
       imgUrl: stackoverflowproject,
-      link: 'https://stack-overflow-build.netlify.app/',
+      link: 'https://soclone.chhatreshkhatri.com/',
       sourceCode: 'https://github.com/Chhatreshkhatri/stack-overflow-clone'
     },
   ];
